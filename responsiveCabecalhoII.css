@@ -1,0 +1,52 @@
+/* RESPONSIVIDADE CABECALHO II */
+@media(min-width:800px) and (max-width:1000px){
+    .textLetr_II{
+        margin-left:25px;
+    }  
+}
+@media(min-width:500px) and (max-width:800px){
+    .textLetr_II{
+        margin-left:20px;
+        font-size:15px;
+    }  
+    strong{
+        font-size:30px;
+    }
+}
+@media(min-width:350px) and (max-width:500px){
+    #cabecalhoII{
+        background-color: rgba(224, 236, 246, 0.811);
+    }
+    #cabecalhoII{
+        display:flex;
+        display: inline-block;
+        text-align: center;
+        width:100%;
+    }
+    .textLetr_II{
+        margin-left:10px;
+        font-size:15px;
+        margin-bottom:15px;
+    }  
+}
+@media(min-width:110px) and (max-width:350px){
+     .textLetr_II{
+        margin-top:8px;
+        font-size:16px;
+        margin-left:5px;
+        margin-bottom:15px;
+    }
+    #strongII{
+        font-size:21px;
+    }
+    #cabecalhoII{
+        display:flex;
+        display: inline-block;
+        text-align: center;
+    }
+    #cabecalhoII{
+        width:100%;
+        background-color: rgba(224, 236, 246, 0.811);
+    }
+}
+
